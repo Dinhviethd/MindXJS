@@ -1,0 +1,45 @@
+.text { display:flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+.khoi {margin: 40px;
+    color: white;
+}
+body{
+    background-image: url(hero1.jpg);
+    background-size: cover;
+    background-attachment: fixed;}
+.content0{margin:125px}
+.content1 {color: white;
+font-size: 50px;
+display:flex;
+flex-direction: column;
+}
+.button {
+    flex-direction: row;
+    margin-top: 20px
+}
+.btn {
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 12px 38px;
+    border-radius: 30px;
+    transition: opacity ease-in 0.2s;
+}
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.btn + .btn {
+    margin-left: 16px;
+}
+.btn--success {
+    background-color: orange;
+    color: white;
+}
+.btn--warn {
+    background-color: aliceblue;
+    color: orange;
+}
